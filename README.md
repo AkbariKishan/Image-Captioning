@@ -15,3 +15,6 @@ Model Includes two components:
 - `Decoder`: Attention + GRU
   - `Attention`: It takes Encoder output and GRU hidden output (from previous time step) as input and gives context vector as output.
   - `GRU`: It takes GRU hidden and main outputs (from previous time step) and attention context vector as input and gives hidden and main outputs as result. 
+
+
+Dataset: https://www.kaggle.com/adityajn105/flickr8k
